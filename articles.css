@@ -1,0 +1,123 @@
+body {
+  background-color: #222222;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px 0px 150px;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+#logo {
+    position: absolute;
+    width: 100px;
+    clip-path: circle(50%);
+    margin-left: 30px;
+}
+
+.banner {
+    display: flex;
+    overflow: hidden;
+    height: 500px;
+}
+
+.tagline {
+  background-color: #333333;
+  display: flex;
+  padding: 0px 0px 0px 150px;
+  margin: 0;
+  margin-bottom: 10px;
+  overflow: hidden;
+  h3 {
+    text-align: center;
+  }
+}
+
+.column {
+  float: left;
+  display: block;
+}
+
+.left {
+  width: 20%;
+}
+
+.center {
+    width: 60%;
+}
+
+.right {
+  width: 20%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#title {
+    text-decoration: underline;
+    text-decoration-color: crimson;
+    font-size: 300%;
+    line-height: 100%;
+}
+
+.container {
+    font-size: 125%;
+    background-color: #333333;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.container a{
+    text-decoration: none;
+    color: rgb(182, 0, 36);
+}
+
+.container a:hover {
+    text-decoration: none;
+    color: crimson;
+}
+
+#headline {
+    text-align: left;
+    line-height: 25%;
+}
+
+#photo {
+    text-align: center;
+    img {
+        width: 50%;
+    }
+}
+
+.foot {
+  background-color: #333333;
+  min-height: 100px;
+  display: flex;
+  padding: 0px 0px 0px 150px;
+  margin: 0;
+  margin-top: 10px;
+  overflow: hidden;
+}
