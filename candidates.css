@@ -50,6 +50,7 @@ ul li a:hover {
 .column {
   float: left;
   display: block;
+  width: 33%;
 }
 
 .left {
