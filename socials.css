@@ -26,6 +26,7 @@ ul li a:hover {
     position: absolute;
     width: 100px;
     margin-left: 30px;
+    clip-path: circle(50%);
 }
 
 .banner {
