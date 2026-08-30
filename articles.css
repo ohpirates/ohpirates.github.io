@@ -127,3 +127,34 @@ ul li a:hover {
   overflow: hidden;
   color: white;
 }
+
+.article-box a {
+  width: fit-content;
+  background-color: #111111;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  float: left;
+  position: relative;
+}
+
+.article-box h2 a:hover {
+  background-color: #333333;
+}
+
+.article-box th {
+  text-align: left;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.article-box {
+  background-color: #111111;
+  width: fit-content;
+  text-align: center;
+  padding: 10px;
+}
+
+#date {
+  width: 100px;
+}
