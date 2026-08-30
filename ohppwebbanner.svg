@@ -12,9 +12,9 @@
 		.t3 { font-size: 50px;fill: #ffffff;font-weight: 400;font-family: "Economica-Regular", "Economica" } 
 	</style>
 	<use id="Background" href="#img1" x="680" y="0"/>
-	<use id="20260626_211503" href="#img2" transform="matrix(1.034,0,0,1.034,-50.08,-2065.44)"/>
+	<use id="20260626_211503" href="#img2" transform="matrix(1.034,0,0,1.034,-51.08,-2067.44)"/>
 	<path id="Shape 1" fill-rule="evenodd" class="s0" d="m3056 536v194h-3180v-194z"/>
-	<use id="OhioPirates" href="#img3" transform="matrix(.997,0,0,.997,1632,-65)"/>
+	<use id="OhioPirates" href="#img3" transform="matrix(.997,0,0,.997,1234,-65)"/>
 	<text id="OHPP" transform="translate(238,216)">
 		<tspan x="0" y="0" class="t1">O</tspan><tspan  y="0" class="t1">H</tspan><tspan  y="0" class="t1">P</tspan><tspan  y="0" class="t1">P
 </tspan>
