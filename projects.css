@@ -89,7 +89,6 @@ ul li a:hover {
 
 #icon {
   width: 300px;
-  clip-path: circle(50%);
   place-self: center;
 }
 
