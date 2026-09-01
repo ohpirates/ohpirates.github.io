@@ -59,6 +59,7 @@ ul li a:hover {
 
 .center {
   width: 79%;
+  place-content: center;
 }
 
 .row:after {
