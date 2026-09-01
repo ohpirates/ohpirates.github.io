@@ -108,6 +108,10 @@ ul li a:hover {
   display: flex;
 }
 
+.article-box img {
+  max-width:fit-content;
+}
+
 #date {
   width: 100px;
 }
