@@ -98,6 +98,7 @@ ul li a:hover {
     padding: 10px;
     margin-bottom: 10px;
     width: 97%;
+    list-style-type: disk;
 }
 
 .container a{
