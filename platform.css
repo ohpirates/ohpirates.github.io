@@ -84,7 +84,7 @@ ul li a:hover {
 }
 
 #platform ul {
-    list-style: none;
+    list-style: disk;
     float: left;
     display: flex;
     padding: 10px;
