@@ -87,7 +87,7 @@ ul li a:hover {
     display: block;
     padding: 10px;
     margin-bottom: 10px;
-    width: fit-content;
+    width: 100%;
 }
 
 #platform p {
