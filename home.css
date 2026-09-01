@@ -134,7 +134,7 @@ ul li a:hover {
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.25);
   color: rgb(255, 255, 255);
-
+  width: 100%;
   td {
     padding-right: 25px;
     max-width: 500px;
