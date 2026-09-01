@@ -60,7 +60,8 @@ ul li a:hover {
 
 .center {
   width: 79%;
-  place-content: center;
+  float: left;
+  margin: 10px;
 }
 
 .row:after {
