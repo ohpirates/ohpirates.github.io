@@ -83,12 +83,14 @@ ul li a:hover {
 }
 
 #platform ul {
-    list-style-type: disk;
     float: left;
     display: flex;
     padding: 10px;
     margin-bottom: 10px;
     width: 100%;
+    li [
+      list-style-type: disc;
+    ]
 }
 
 #platform p {
