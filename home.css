@@ -137,7 +137,7 @@ ul li a:hover {
   width: 100%;
   td {
     padding-right: 25px;
-    max-width: 500px;
+    max-width: 90%;
     text-wrap: inherit;
   }
 }
