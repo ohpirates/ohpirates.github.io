@@ -99,6 +99,7 @@ ul li a:hover {
     margin-bottom: 10px;
     width: 97%;
     list-style-type: disk;
+    list-style-position: inside;
 }
 
 .container a{
