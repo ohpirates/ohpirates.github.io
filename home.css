@@ -52,12 +52,10 @@ ul li a:hover {
 }
 
 .left {
-  max-width: 60%;
   width: 60%;
 }
 
 .right {
-  max-width: 40%;
   width: 40%;
 }
 
