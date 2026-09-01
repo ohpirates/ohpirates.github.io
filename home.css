@@ -110,7 +110,7 @@ ul li a:hover {
 
 .article-box img {
   max-width:fit-content;
-  width: 80%;
+  width: 100%;
   display: block;
 }
 
