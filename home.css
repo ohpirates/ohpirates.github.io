@@ -94,7 +94,7 @@ ul li a:hover {
   background-color: #333333;
 }
 
-.article-box th {
+.article-box th tr {
   text-align: left;
   max-width: 600px;
   padding: 10px;
@@ -111,6 +111,7 @@ ul li a:hover {
 .article-box img {
   max-width:fit-content;
   width: 100%;
+  display: block;
 }
 
 #date {
