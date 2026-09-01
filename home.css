@@ -49,6 +49,7 @@ ul li a:hover {
 
 .column {
   float: left;
+  display: grid;
 }
 
 .left {
