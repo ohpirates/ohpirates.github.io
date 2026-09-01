@@ -92,6 +92,14 @@ ul li a:hover {
     margin-bottom: 0px;
 }
 
+.container ul {
+    float: left;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 97%;
+}
+
 .container a{
     text-decoration: none;
     color: rgb(182, 0, 36);
