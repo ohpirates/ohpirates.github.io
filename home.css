@@ -105,6 +105,7 @@ ul li a:hover {
   width: fit-content;
   text-align: center;
   padding: 10px;
+  display: flex;
 }
 
 #date {
