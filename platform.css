@@ -92,11 +92,13 @@ body {
 }
 
 .left {
-  max-width: 60%;
+  max-width: 95%;
+  width: 60%;
 }
 
 .right {
-  max-width: 40%;
+  max-width: 95%;
+  width: 40%;
 }
 
 .row:after {
