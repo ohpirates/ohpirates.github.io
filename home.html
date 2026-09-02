@@ -13,30 +13,33 @@
     <title>Ohio Pirates Homepage</title>
 </head>
 <body>
-    <div class="navbar" id="mynavbar">
-            <a href="home.html"><img src="OhioPirates.svg" id="logo"></a>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="platform.html">Platform</a></li>
-                <li><a href="projects.html">Events and Projects</a></li>
-                <li><a href="socials.html">Get Involved</a></li>
-                <li><a href="candidates.html">Candidates</a></li>
-                <li><a href="articles.html">Articles</a></li>
-                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a></li> 
-                <script>
-                    function myFunction() {
-                        var x = document.getElementById("mynavbar");
-                        if (x.className === "navbar") {
-                            x.className += " responsive";
-                        } else {
-                            x.className = "navbar";
+    <div>
+        <a href="home.html"><img src="OhioPirates.svg" id="logo"></a>
+        <div class="navbar" id="mynavbar">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="platform.html">Platform</a></li>
+                    <li><a href="projects.html">Events and Projects</a></li>
+                    <li><a href="socials.html">Get Involved</a></li>
+                    <li><a href="candidates.html">Candidates</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a></li> 
+                    <script>
+                        function myFunction() {
+                            var x = document.getElementById("mynavbar");
+                            if (x.className === "navbar") {
+                                x.className += " responsive";
+                            } else {
+                                x.className = "navbar";
+                            }
                         }
-                    }
-                </script>
-            </ul>
+                    </script>
+                </ul>
+        </div>
     </div>
+    
     <!--banner-->
     <div class="banner">
         <img src="ohppwebbanner.png">
