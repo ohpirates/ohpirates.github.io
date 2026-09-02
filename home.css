@@ -27,22 +27,22 @@ ul li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  ul li.icon {
+  .navbar a.icon {
     float: right;
     display: block;
   }
 }
 
 @media screen and (max-width: 600px) {
-  ul.responsive {
+  .navbar.responsive {
     position: relative;
   }
-  ul.responsive li.icon {
+  .navbar.responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.responsive li {
+  .navbar.responsive li {
     float: none;
     display: block;
     text-align: left;
