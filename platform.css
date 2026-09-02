@@ -82,6 +82,10 @@ body {
   }
 }
 
+.row {
+  display: grid;
+  float: left;
+}
 .column {
   float: left;
   display: grid;
