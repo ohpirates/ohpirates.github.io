@@ -108,6 +108,9 @@ body {
   .column {
     width: 100%;
   }
+  #title {
+    font-size: 200%;
+  }
 }
 
 #title {
