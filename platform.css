@@ -121,7 +121,7 @@ body {
 
 #platform ul {
     float: left;
-    display: grid;
+    display: block;
     padding: 10px;
     margin-bottom: 10px;
     width: 97%;
@@ -134,14 +134,13 @@ body {
 
 #platform-2 {
     max-width: 100%;
-    display: grid;
+    display: block;
     background-color: #111111;
     color: white;
     text-align: center;
     padding: 10px;
     margin: 10px;
     line-height: 150%;
-    float: left;
 }
 
 .foot {
