@@ -83,7 +83,7 @@ body {
 }
 
 .row {
-  display: grid;
+  display: flex;
   
 }
 .column {
