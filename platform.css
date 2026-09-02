@@ -142,6 +142,11 @@ body {
   }
 }
 
+#platform-2 img {
+  width: 100%;
+  height: auto;
+  max-width: fit-content;
+}
 .foot {
   background-color: #333333;
   min-height: 100px;
