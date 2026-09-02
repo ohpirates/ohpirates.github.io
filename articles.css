@@ -63,6 +63,12 @@ body {
     height: 500px;
 }
 
+@media screen and (max-width: 600px) {
+  .banner {
+    height: 200px;
+  }
+}
+
 .tagline {
   background-color: #333333;
   display: flex;
