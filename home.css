@@ -3,22 +3,22 @@ body {
   color: white;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0px 0px 0px 150px;
+.navbar {
   background-color: #333333;
-  display: flex;
+  overflow: hidden;
 }
 
-ul li a {
+.navbar a {
   display: block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
+  float: left;
+  text-align: center;
+  
 }
 
-ul li a:hover {
+.navbar a:hover {
   background-color: #111111;
 }
 
