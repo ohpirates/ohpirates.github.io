@@ -131,15 +131,15 @@ body {
 }
 
 #platform-2 {
-    max-width: 100%;
-    display: block;
-    background-color: #111111;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    line-height: 150%;
-    width: fit-content;
+  background-color: #111111;
+  padding: 10px;
+  color: white;
+  max-width: 100%;
+  float: left;
+  a {
+    color: crimson;
+    text-decoration: none;
+  }
 }
 
 .foot {
