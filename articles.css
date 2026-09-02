@@ -125,6 +125,7 @@ body {
     margin-left: 10px;
     margin-bottom: 0px;
     display: grid;
+    float: left;
 }
 
 .container ul {
