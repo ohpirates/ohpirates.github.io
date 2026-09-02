@@ -111,7 +111,7 @@ body {
     background-color: #111111;
     color: white;
     text-align: left;
-    display: block;
+    display: grid;
     width: 95%;
     padding: 10px;
     margin: 10px;
@@ -134,7 +134,7 @@ body {
 
 #platform-2 {
     max-width: 100%;
-    display: block;
+    display: grid;
     background-color: #111111;
     color: white;
     text-align: center;
