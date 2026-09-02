@@ -111,7 +111,7 @@ body {
     background-color: #111111;
     color: white;
     text-align: left;
-    display: grid;
+    display: block;
     width: 95%;
     padding: 10px;
     margin: 10px;
