@@ -3,23 +3,52 @@ body {
   color: white;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0px 0px 0px 150px;
+.navbar {
   background-color: #333333;
-  display: flex;
+  overflow: hidden;
 }
 
-ul li a {
+.navbar a {
   display: block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
+  float: right;
+  text-align: center;
 }
 
-ul li a:hover {
+.navbar a:hover {
   background-color: #111111;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative;
+  }
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 #logo {
