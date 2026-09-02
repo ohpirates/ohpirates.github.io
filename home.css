@@ -15,7 +15,11 @@ body {
   text-decoration: none;
   float: left;
   text-align: center;
-  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .navbar a:hover {
