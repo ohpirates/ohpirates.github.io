@@ -108,7 +108,7 @@ body {
   .column {
     width: 100%;
   }
-  #title {
+  .column #title {
     font-size: 150%;
     max-width: fit-content;
     width: 100%;
