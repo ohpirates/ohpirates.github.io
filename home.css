@@ -22,6 +22,17 @@ ul li a:hover {
   background-color: #111111;
 }
 
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  ul li.icon {
+    float: right;
+    display: block;
+  }
+}
+
 #logo {
     position: absolute;
     width: 100px;
