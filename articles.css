@@ -124,6 +124,7 @@ body {
     padding: 10px;
     margin-left: 10px;
     margin-bottom: 0px;
+    display: grid;
 }
 
 .container ul {
