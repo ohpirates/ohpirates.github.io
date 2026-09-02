@@ -110,6 +110,7 @@ body {
   }
   #title {
     font-size: 150%;
+    max-width: fit-content;
     width: 100%;
   }
 }
