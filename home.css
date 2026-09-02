@@ -33,15 +33,6 @@ ul li a:hover {
   }
 }
 
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "navbar") {
-    x.className += " responsive";
-  } else {
-    x.className = "navbar";
-  }
-}
-
 @media screen and (max-width: 600px) {
   .navbar.responsive {
     position: relative;
