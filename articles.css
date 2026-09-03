@@ -159,6 +159,7 @@ body {
 #headline {
     text-align: left;
     line-height: 25%;
+    width: 97.75%;
 }
 
 #photo {
@@ -172,6 +173,13 @@ body {
         width: 50%;
         height: auto;
     }
+}
+
+@media screen and (max-width: 600px) {
+  #photo {
+    width: 100%;
+  }
+  
 }
 
 .foot {
