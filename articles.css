@@ -136,6 +136,12 @@ body {
     float: left;
 }
 
+@media screen and (max-width: 600px) {
+  .container {
+    margin-left: 0px;
+  }
+}
+
 .container ul {
     float: left;
     display: block;
@@ -176,7 +182,7 @@ body {
 
 @media screen and (max-width: 600px) {
   #photo #headline {
-    width: screen;
+    width: 100%;
   }
   
 }
