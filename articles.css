@@ -169,7 +169,7 @@ body {
     align-items: center;
     width: 100%;
     img {
-        height: 50%;
+        scale: 0.5;
     }
 }
 
