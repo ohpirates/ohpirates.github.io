@@ -164,6 +164,7 @@ body {
 #photo {
     text-align: center;
     color: white;
+    display: block;
     img {
         width: 50%;
     }
