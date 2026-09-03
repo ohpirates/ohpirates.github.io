@@ -176,8 +176,8 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  #photo {
-    width: 95%;
+  #photo #headline {
+    width: 94%;
   }
   
 }
