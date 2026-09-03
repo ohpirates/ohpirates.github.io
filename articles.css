@@ -166,7 +166,6 @@ body {
     text-align: center;
     color: white;
     display: block;
-    justify-content: center;
     align-items: center;
     width: 97.75%;
     img {
@@ -177,7 +176,7 @@ body {
 
 @media screen and (max-width: 600px) {
   #photo #headline {
-    width: 80%;
+    width: screen;
   }
   
 }
