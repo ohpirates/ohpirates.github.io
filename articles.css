@@ -167,9 +167,9 @@ body {
     display: block;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 97%;
     img {
-        scale: 0.5;
+        scale: 0.75;
     }
 }
 
