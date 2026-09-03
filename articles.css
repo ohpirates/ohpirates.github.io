@@ -84,7 +84,7 @@ body {
 
 .column {
   float: left;
-  display: block;
+  display: grid;
 }
 
 .left {
